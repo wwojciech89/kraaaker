@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script
+      src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"
+      defer
+    ></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/8.2.2/firebase-firestore.js"
+      defer
+    ></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/8.2.2/firebase-auth.js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="firebase.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <a href="http://127.0.0.1:5500/jsProjeckt-2/index.html" class="title"
+        >Kraaaker</a
+      >
+      <div class="form__container">
+        <form class="form">
+          <p class="form__title">
+            Enter your email and password to start kraaa!
+          </p>
+          <div class="input__container">
+            <label>Email</label>
+            <input class="email" type="email" placeholder="here" />
+            <label>Password</label>
+            <input class="password" type="password" placeholder="here" />
+            <a href="#" class="send__button" type="button">Submit</a>
+          </div>
+        </form>
+      </div>
+      <div class="buttons__container">
+        <p class="tekst"></p>
+        <a href="#" class="signIn__button">Sign In</a>
+        <a href="#" class="singUp__button">Sign Up</a>
+        <a href="#" class="signOut__button">Sign Out</a>
+      </div>
+    </header>
+    <div class="main__container">
+      <main>
+        <div class="media__container">
+          <div class="newMessage__container">
+            <img class="your__photo" src="heart.svg" alt="" />
+            <input
+              class="newMessage__input"
+              type="text"
+              placeholder="What's Kraaakening ?"
+            />
+            <a class="kraaak__button" href="#">KRAAA!</a>
+          </div>
+          <div class="messages__container">
+            <p class="container__praragraph">Login to read news...</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

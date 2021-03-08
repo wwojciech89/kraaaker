@@ -1,0 +1,290 @@
+.body {
+  margin: 0;
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+.main__container {
+  width: 1000px;
+  background-color: rgb(20, 20, 20);
+  margin: auto;
+  height: 100vh;
+}
+
+.header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(20, 20, 20);
+  position: sticky;
+  height: 70px;
+  top: 0;
+  border-bottom: white solid 1px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+  margin: auto 0 auto 20px;
+  text-decoration: none;
+}
+
+.buttons__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.signIn__button,
+.singUp__button,
+.signOut__button {
+  margin-right: 15px;
+  width: 80px;
+  height: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  display: block;
+  padding-left: 14px;
+  padding-top: 2px;
+  text-decoration: none;
+}
+.signIn__button:hover,
+.singUp__button:hover,
+.signOut__button:hover,
+.send__button:hover,
+.kraaak__button:hover,
+.input__button:hover {
+  background-color: white;
+  color: black;
+}
+.send__button {
+  width: 80px;
+  height: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 250px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__container {
+  background-color: rgb(20, 20, 20);
+
+  display: none;
+}
+
+.form__title {
+  margin: 8px;
+}
+.input__container {
+}
+
+label {
+  font-size: 20px;
+}
+
+.email,
+.password {
+  height: 30px;
+  width: 200px;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* creating container content */
+
+.article__container {
+  width: 970px;
+  padding: 15px;
+  background-color: rgb(20, 20, 20);
+  border-radius: 10px;
+}
+.article__flex {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.article__photo {
+  background-color: gray;
+  flex-grow: 1;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.message__container {
+  width: 1000px;
+  background-color: rgb(43, 41, 41);
+  flex-grow: 13;
+  height: 80px;
+  border-radius: 15px 15px 0px 15px;
+}
+
+.article__email {
+  font-weight: 100;
+  margin: 0;
+  padding: 6px 0 0 10px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.article__content {
+  margin: 0;
+  padding: 10px 0 0 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.articleFooter__container {
+  background-color: grey;
+  width: 911px;
+  height: 40px;
+  margin-left: 59px;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.article__likeButton {
+  width: 20px;
+  height: 20px;
+}
+
+.like__counter {
+  margin-left: -380px;
+  font-size: 20px;
+}
+
+.article__messageButton {
+  width: 20px;
+  height: 20px;
+}
+
+.comment__counter {
+  margin-left: -380px;
+  font-size: 20px;
+}
+
+.commentary__container {
+  background-color: rgb(43, 41, 41);
+  margin: 0 0 10px 0;
+  width: 850px;
+  margin-left: 120px;
+  border-radius: 15px;
+}
+.commentary__input {
+  color: white;
+  margin: 8px;
+  padding: 10px 0 0 20px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  background-color: rgb(43, 41, 41);
+  border-bottom: 2px solid white;
+  width: 80%;
+}
+.input__button {
+  background-color: black;
+  margin-right: 15px;
+  width: 90px;
+  height: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding-top: 2px;
+  text-decoration: none;
+}
+.commentary__email {
+  font-weight: 100;
+  margin: 0;
+  padding: 6px 0 0 10px;
+  font-size: 15px;
+}
+
+.commentary__content {
+  margin: 0;
+  padding: 6px 0 0 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.commentary__one {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+  border-radius: 15px;
+}
+.comment__data {
+  display: flex;
+  flex-direction: row;
+}
+.comment {
+  margin-left: 30px;
+}
+
+/* New message*/
+.newMessage__container {
+  width: 1000px;
+  background-color: black;
+  height: 180px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: white solid 4px;
+}
+
+.your__photo {
+  margin: auto 30px;
+}
+
+.newMessage__input {
+  flex-grow: 12;
+  height: 40px;
+  align-self: center;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(43, 41, 41);
+  border-radius: 15px;
+  padding-left: 10px;
+  color: white;
+}
+
+.kraaak__button {
+  align-self: flex-end;
+  justify-self: center;
+  flex-grow: 1;
+  margin-bottom: 20px;
+  width: 44px;
+  height: 22px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 6px 19px;
+  text-decoration: none;
+  margin-right: 30px;
+}
